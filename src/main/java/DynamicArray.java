@@ -20,7 +20,7 @@ public class DynamicArray {
     private void grow() {
         int[] newData = new int[data.length * 2];
         for (int i = 0; i < size; i++) {
-            steps++
+            steps++;
             newData[i] = data[i];
             moves++;
         }
